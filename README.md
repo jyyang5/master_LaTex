@@ -52,7 +52,7 @@
 - Centered
 - Numbered 
 - Aligned 
-
+- **NOTE**: CANNOT USE `\mathscr{}`
 ```{tex}
 \begin{align}
 \Delta &= -\frac{N}{2} E \left [  \log f(y) - \log {f(x)} \right ] \nonumber\\
