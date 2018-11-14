@@ -7,6 +7,8 @@
 
 - Math equations
 
+- acmt package 
+
 ### Insert figure 
 - Centred (figure*)
 - Figure name(\caption{})
@@ -59,3 +61,22 @@
  &= -\frac{N}{2} E \left [  \log \frac{f(x^{t+1})}{f(x^{t})} \right ], 
 \end{align}
 ```
+
+### acmt package 
+#### Fortmat (one column or two column compact)
+```latex
+% Two columns
+\documentclass[sigconf,natbib=false]{acmart}
+% One column
+\documentclass[sig-alternate,natbib=false]{acmart}
+```
+
+#### Remove reference info 
+```latex
+% Remove reference info [right after document class]
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain} % removes running headers
+```
+
+
