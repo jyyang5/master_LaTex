@@ -77,6 +77,9 @@
 \settopmatter{printacmref=false} % Removes citation information below abstract
 \renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
 \pagestyle{plain} % removes running headers
+% Remove manuscript submitted to acm [after \maketitle]
+\thispagestyle{empty}
+
 ```
 
 
